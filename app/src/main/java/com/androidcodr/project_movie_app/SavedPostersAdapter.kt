@@ -19,7 +19,7 @@ class SavedPostersAdapter(private val context: Context, private val posterUrls: 
 
     override fun onBindViewHolder(holder: PosterViewHolder, position: Int) {
         val posterUrl = posterUrls[position]
-        //adaug imaginile
+        // adaug imaginile
         Glide.with(context)
             .load(posterUrl)
             .into(holder.posterImageView)

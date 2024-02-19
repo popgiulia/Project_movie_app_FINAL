@@ -40,7 +40,7 @@ class MovieAdapter(private var movies : List<Movie>) : RecyclerView.Adapter<Movi
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, MovieDetailActivity::class.java)
-            // trimite datele despre film către MovieDetailActivity
+            //trimite datele despre film către MovieDetailActivity
             intent.putExtra("movie", movie)
             context.startActivity(intent)
         }

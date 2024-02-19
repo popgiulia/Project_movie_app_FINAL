@@ -16,10 +16,10 @@ class SavedPostersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_saved_posters)
 
-        // Obțin lista de URL-uri pentru postere
+        //obtin lista de URL-uri pentru postere
         posterUrls = intent.getStringArrayListExtra("posterUrls") ?: emptyList()
 
-        // Inițializez RecyclerView
+        //inițializez RecyclerView
         recyclerView = findViewById(R.id.recyclerview)
         recyclerView.layoutManager = GridLayoutManager(this, 3)
         val adapter = SavedPostersAdapter(this, posterUrls)

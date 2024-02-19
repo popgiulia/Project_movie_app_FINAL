@@ -3,7 +3,7 @@ package com.androidcodr.project_movie_app
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable
 
-//am definit un model de date ca sa stochez informatiile despre filme
+// am definit un model de date ca sa stochez informatiile despre filme
 data class Movie (
     @SerializedName("id")
     val id : String?,

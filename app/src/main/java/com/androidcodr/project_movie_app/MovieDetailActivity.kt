@@ -51,7 +51,7 @@ class MovieDetailActivity : AppCompatActivity() {
         val ratingMovie =findViewById<TextView>(R.id.rating_movie_details)
         ratingMovie.text = movie.rating
 
-        // posterul filmului
+        //posterul filmului
         val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500/"
         movieTitle.text = movie.title
         releaseDate.text = movie.releaseDate

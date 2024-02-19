@@ -17,7 +17,7 @@ class FullPosterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_full_poster)
 
-        //preiau lista de URL-uri pentru postere si pozitia curenta din intent
+        // preiau lista de URL-uri pentru postere si pozitia curenta din intent
         posterUrls =intent.getStringArrayListExtra("posterUrls") ?: emptyList()
         currentPosition = intent.getIntExtra("position", 0)
 

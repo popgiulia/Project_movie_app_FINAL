@@ -3,7 +3,7 @@ package com.androidcodr.project_movie_app
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-//creez un client retrofit ca sa pot face cereri catre serverul API
+// creez un client retrofit ca sa pot face cereri catre serverul API
 object RetrofitMovie {
     private const val BASE_URL = "https://api.themoviedb.org" //ur-ul serviciului web
     private var retrofit: Retrofit? = null

@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
 
-        //setez primul item din spinner ca default
+        // setez primul item din spinner ca default
         spinner.setSelection(0, false)
 
         spinner.setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {
