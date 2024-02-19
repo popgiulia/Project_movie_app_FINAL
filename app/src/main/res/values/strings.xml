@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project_movie_app</string>
+    <string-array name="year_array">
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+
+</resources>
