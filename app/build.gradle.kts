@@ -45,7 +45,7 @@ dependencies {
     //Recyclerview
     implementation("androidx.recyclerview:recyclerview-selection:1.1.0-alpha05")
 
-    //Glide
+    // Glide
     implementation ("com.github.bumptech.glide:glide:4.16.0")
 
     //Retrofit
